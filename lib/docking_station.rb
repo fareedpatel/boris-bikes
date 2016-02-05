@@ -6,12 +6,12 @@ class DockingStation
 	attr_reader :bike
 
   def release_bike
-  #   fail "No bikes available" unless @bike
- 	# @bike
-  Bike.new
+     fail "No bikes available" unless @bike
+     # Bike.new
+     @bike
   end
 
-   def dock(bike)
+  def dock(bike)
     # use an instance variable to store the bike
     # in the 'state' of this instance
    	@bike = bike
@@ -22,5 +22,4 @@ class DockingStation
   #  @bike
   #  end
 # instead we use an attribute reader
-
 end

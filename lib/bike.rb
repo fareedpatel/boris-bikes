@@ -1,10 +1,6 @@
 class Bike
-
-  def working? 
-  	return true
-
+  def working?
+	
+	@bike
   end
-
-
-  
 end
