@@ -1,6 +1,5 @@
 class Bike
   def working?
-	
-	@bike
+	 @bike
   end
 end
